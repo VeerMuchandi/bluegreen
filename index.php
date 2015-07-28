@@ -7,8 +7,8 @@ $blue = imagecolorallocate($im, 0, 0, 255);
 $green = imagecolorallocate($im, 0, 255, 0);
 
 // Draw a white rectangle
-//imagefilledrectangle($im, 4, 4, 50, 25, $blue);
-imagefilledrectangle($im, 4, 4, 50, 25, $green);
+imagefilledrectangle($im, 4, 4, 200, 100, $blue);
+//imagefilledrectangle($im, 4, 4, 200, 100, $green);
 
 // Save the image
 header('Content-Type: image/png');
