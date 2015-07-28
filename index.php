@@ -8,7 +8,7 @@ $white = imagecolorallocate($im, 255, 255, 255);
 imagefilledrectangle($im, 4, 4, 50, 25, $white);
 
 // Save the image
-header('Content-Type: image/jpeg');
-imagepng($im, './imagefilledrectangle.png');
+header('Content-Type: image/png');
+imagePNG($im, './imagefilledrectangle.png');
 imagedestroy($im);
 ?>
