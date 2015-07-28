@@ -14,5 +14,4 @@ imagefilledrectangle($im, 4, 4, 192, 92, $green);
 header('Content-Type: image/png');
 imagePNG($im, './imagefilledrectangle.png');
 imagedestroy($im);
-echo $_SERVER['SERVER_ADDR']
 ?>
