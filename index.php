@@ -1,13 +1,9 @@
 Welcome!!
 <?php
-// Create a 55x30 image
-$im = imagecreatetruecolor(55, 30);
-$white = imagecolorallocate($im, 0, 0, 255);
-
-// Draw a white rectangle
-imagefilledrectangle($im, 4, 4, 50, 25, $white);
-
-// Save the image
-imagepng($im, './imagefilledrectangle.png');
-imagedestroy($im);
+ $im = ImageCreate(200,200);
+ $white = ImageColorAllocate($im,0xFF,0xFF,0xFF);
+ $black = ImageColorAllocate($im,0x00,0x00,0x00);
+ ImageFilledRectangle($im,50,50,150,150,$black);
+ header('Content-Type: image/png');
+ ImagePNG($im);
 ?>
