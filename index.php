@@ -1,4 +1,3 @@
-Welcome!!
 <?php
 // Create a 55x30 image
 $im = imagecreatetruecolor(200, 100);
