@@ -77,14 +77,6 @@
             </thead>
             <tbody>
               <tr>
-                <td>Service IP</td>
-                <td><?php echo $_ENV["BLUEGREEN_SERVICE_HOST"] ?></td>
-              </tr>
-              <tr>
-                <td>Service Port</td>
-                <td><?php echo $_ENV["BLUEGREEN_SERVICE_PORT"] ?></td>
-              </tr>
-              <tr>
                 <td>Pod IP</td>
                 <td><?php echo $_SERVER['SERVER_ADDR'] ?></td>
               </tr>
