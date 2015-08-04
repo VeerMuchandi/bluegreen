@@ -95,6 +95,12 @@
             </tbody>
           </table>
         </div>
+        <div class="col-md-6 col-md-offset-3">
+          <h2>Application Example</h2>
+          <p>
+            <img src="image.php">
+          </p>
+        </div>
       </div>
         </div><!-- /col -->
       </div><!-- /row -->
