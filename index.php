@@ -78,19 +78,19 @@
             <tbody>
               <tr>
                 <td>Service IP</td>
-                <td><%= .$_ENV["BLUEGREEN_SERVICE_HOST"] %></td>
+                <td><?php .$_ENV["BLUEGREEN_SERVICE_HOST"] ?></td>
               </tr>
               <tr>
                 <td>Service Port</td>
-                <td><%= .$_ENV["BLUEGREEN_SERVICE_PORT"] %></td>
+                <td><?php .$_ENV["BLUEGREEN_SERVICE_PORT"] ?></td>
               </tr>
               <tr>
                 <td>Pod IP</td>
-                <td><%= $_SERVER['SERVER_ADDR'] %></td>
+                <td><?php $_SERVER['SERVER_ADDR'] ?></td>
               </tr>
               <tr>
                 <td>Pod Port</td>
-                <td><%= $_SERVER['SERVER_PORT'] %></td>
+                <td><?php $_SERVER['SERVER_PORT'] ?></td>
               </tr>
             </tbody>
           </table>
