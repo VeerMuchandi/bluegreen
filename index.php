@@ -4,7 +4,7 @@
 <html>
 <!--<![endif]-->
   <head>
-    <title>Basic - PatternFly</title>
+    <title>Basic - nnnnnn PatternFly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../dist/img/favicon.ico">
     <!-- iPad retina icon -->
